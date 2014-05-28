@@ -1,0 +1,175 @@
+\hypertarget{classQuestion}{\section{\-Dokumentacja klasy \-Question}
+\label{classQuestion}\index{\-Question@{\-Question}}
+}
+
+
+\-Klasa przechowująca jedno pytanie z testu.  
+
+
+
+
+{\ttfamily \#include $<$question.\-h$>$}
+
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classQuestion_a2e1167d0407c7530b4f7a7492d0050d0}{\hyperlink{classQuestion_a2e1167d0407c7530b4f7a7492d0050d0}{\-Question} ()}\label{classQuestion_a2e1167d0407c7530b4f7a7492d0050d0}
+
+\begin{DoxyCompactList}\small\item\em \-Konstruktor domyślny klasy \hyperlink{classQuestion}{\-Question}. \end{DoxyCompactList}\item 
+\hyperlink{classQuestion_a3d0520fe99796920613b7c4ecd488c11}{\-Question} (int)
+\begin{DoxyCompactList}\small\item\em \-Konstruktor ustawiający rozmiar. \end{DoxyCompactList}\item 
+void \hyperlink{classQuestion_ad492cdcbebcec385405b958a7b0fc7b4}{set\-Quest} (\-Q\-String)
+\begin{DoxyCompactList}\small\item\em \-Ustawienie treści pytania. \end{DoxyCompactList}\item 
+\-Q\-String \hyperlink{classQuestion_ab6e80c0dc5bd15bec210d8937e0d9f68}{get\-Quest} ()
+\begin{DoxyCompactList}\small\item\em \-Odczytuje treść pytania. \end{DoxyCompactList}\item 
+int \hyperlink{classQuestion_a3dea4f0f7cb72d5d0c5fe7223ee947ab}{get\-Count} ()
+\begin{DoxyCompactList}\small\item\em \-Odczytuje ilość wariantów odpowiedzi. \end{DoxyCompactList}\item 
+\-Q\-String \hyperlink{classQuestion_a2e039ab1e76677f4edbdd9a523de01f4}{get\-Ans} (int i)
+\begin{DoxyCompactList}\small\item\em \-Odczytuje i-\/ty wariant odpowiedzi. \end{DoxyCompactList}\item 
+void \hyperlink{classQuestion_a0b94754c2244fe6c7c62db56d5395e97}{add\-Answer} (\-Q\-String $\ast$)
+\begin{DoxyCompactList}\small\item\em \-Dodawanie wariantu odpowiedzi. \end{DoxyCompactList}\item 
+void \hyperlink{classQuestion_af3aed20396e45a671a068fdb9ffe6998}{set\-Right} (int)
+\begin{DoxyCompactList}\small\item\em \-Ustawianie prawidłowej. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classQuestion_ab0e9c785ca5277625665955bc45217be}{\-Q\-String {\bfseries quest}}\label{classQuestion_ab0e9c785ca5277625665955bc45217be}
+
+\item 
+\hypertarget{classQuestion_a780db24b905ea5963c53154ae5648f80}{\-Q\-String {\bfseries ans} \mbox{[}9\mbox{]}}\label{classQuestion_a780db24b905ea5963c53154ae5648f80}
+
+\item 
+\hypertarget{classQuestion_afe1e145da72cee4da3ea0f2fd56cb3aa}{int {\bfseries count}}\label{classQuestion_afe1e145da72cee4da3ea0f2fd56cb3aa}
+
+\item 
+\hypertarget{classQuestion_a1f1f0237f6b523c1668b651b1506e666}{int {\bfseries right\-\_\-ans}}\label{classQuestion_a1f1f0237f6b523c1668b651b1506e666}
+
+\item 
+\hypertarget{classQuestion_ae450748d55d22c026c317cfcaa7b74d5}{int {\bfseries marked}}\label{classQuestion_ae450748d55d22c026c317cfcaa7b74d5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Klasa przechowująca jedno pytanie z testu. 
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classQuestion_a3d0520fe99796920613b7c4ecd488c11}{\index{\-Question@{\-Question}!\-Question@{\-Question}}
+\index{\-Question@{\-Question}!Question@{\-Question}}
+\subsubsection[{\-Question}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::\-Question} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_a3d0520fe99796920613b7c4ecd488c11}
+
+
+\-Konstruktor ustawiający rozmiar. 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em i} & \-Ilość wariantów \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classQuestion_a0b94754c2244fe6c7c62db56d5395e97}{\index{\-Question@{\-Question}!add\-Answer@{add\-Answer}}
+\index{add\-Answer@{add\-Answer}!Question@{\-Question}}
+\subsubsection[{add\-Answer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::add\-Answer} (
+\begin{DoxyParamCaption}
+\item[{\-Q\-String $\ast$}]{aa}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_a0b94754c2244fe6c7c62db56d5395e97}
+
+
+\-Dodawanie wariantu odpowiedzi. 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em aa} & treść odpowiedzi \\
+\hline
+{\em t} & czy odpowiedź jest prawdziwa \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQuestion_a2e039ab1e76677f4edbdd9a523de01f4}{\index{\-Question@{\-Question}!get\-Ans@{get\-Ans}}
+\index{get\-Ans@{get\-Ans}!Question@{\-Question}}
+\subsubsection[{get\-Ans}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::get\-Ans} (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_a2e039ab1e76677f4edbdd9a523de01f4}
+
+
+\-Odczytuje i-\/ty wariant odpowiedzi. 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em i} & numer odpowiedzi \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQuestion_a3dea4f0f7cb72d5d0c5fe7223ee947ab}{\index{\-Question@{\-Question}!get\-Count@{get\-Count}}
+\index{get\-Count@{get\-Count}!Question@{\-Question}}
+\subsubsection[{get\-Count}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::get\-Count} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_a3dea4f0f7cb72d5d0c5fe7223ee947ab}
+
+
+\-Odczytuje ilość wariantów odpowiedzi. 
+
+\begin{DoxyReturn}{\-Zwraca}
+count ilość wariantów 
+\end{DoxyReturn}
+\hypertarget{classQuestion_ab6e80c0dc5bd15bec210d8937e0d9f68}{\index{\-Question@{\-Question}!get\-Quest@{get\-Quest}}
+\index{get\-Quest@{get\-Quest}!Question@{\-Question}}
+\subsubsection[{get\-Quest}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::get\-Quest} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_ab6e80c0dc5bd15bec210d8937e0d9f68}
+
+
+\-Odczytuje treść pytania. 
+
+\begin{DoxyReturn}{\-Zwraca}
+treść pytania 
+\end{DoxyReturn}
+\hypertarget{classQuestion_ad492cdcbebcec385405b958a7b0fc7b4}{\index{\-Question@{\-Question}!set\-Quest@{set\-Quest}}
+\index{set\-Quest@{set\-Quest}!Question@{\-Question}}
+\subsubsection[{set\-Quest}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::set\-Quest} (
+\begin{DoxyParamCaption}
+\item[{\-Q\-String}]{qs}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_ad492cdcbebcec385405b958a7b0fc7b4}
+
+
+\-Ustawienie treści pytania. 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em qs} & treść pytania \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQuestion_af3aed20396e45a671a068fdb9ffe6998}{\index{\-Question@{\-Question}!set\-Right@{set\-Right}}
+\index{set\-Right@{set\-Right}!Question@{\-Question}}
+\subsubsection[{set\-Right}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Question\-::set\-Right} (
+\begin{DoxyParamCaption}
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)}}\label{classQuestion_af3aed20396e45a671a068fdb9ffe6998}
+
+
+\-Ustawianie prawidłowej. 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em k} & odpowiedź prawdziwa \\
+\hline
+\end{DoxyParams}
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+question.\-h\item 
+question.\-cpp\end{DoxyCompactItemize}
